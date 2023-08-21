@@ -13,3 +13,41 @@
  *= require_tree .
  *= require_self
  */
+
+
+ .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+   /* Adjust the height to fit your needs */
+}
+
+.text-center {
+  text-align: center;
+}
+ form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
